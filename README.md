@@ -13,6 +13,7 @@ To provide personalized insights on students’ career readiness and guide them 
 ## 📂 Project Structure
 
 Project1/
+
 │
 
 ├── career_model.pkl # Trained Random Forest model
@@ -30,7 +31,7 @@ Project1/
 
 ## ⚙️ Technologies & Libraries Used
 
-- Python 3.x  
+- Python 
 - Pandas  
 - Scikit-learn (Random Forest, LabelEncoder)  
 - Joblib (model serialization)  
@@ -49,6 +50,8 @@ Project1/
 
 ## 🚀 How to Run
 
+Python code
+
 ```bash
 python student_career.py
 
@@ -57,7 +60,9 @@ Streamlit Web App
 ```bash
 streamlit run career_app.py 
 
-Dataset
+
+## Dataset: 
+
 student.csv contains features like:
 
 Student_Age, Sex, High_School_Type, Scholarship
