@@ -46,11 +46,24 @@ Project1/
 - Provides **HIGH/LOW career suggestion** with clear output.  
 - Interactive Streamlit app for user-friendly experience.  
 
+--- 
+## Dataset: 
+
+student.csv contains features like:
+
+Student_Age, Sex, High_School_Type, Scholarship
+
+Additional_Work, Sports_activity, Transportation 
+
+Weekly_Study_Hours, Attendance
+
+Reading, Notes, Listening_in_Class, Project_work
+
+Target variable: Grade (converted to HIGH/LOW) 
+
 ---
 
-## 🚀 How to Run
-
-Python code
+## How to Run
 
 ```bash
 python student_career.py
@@ -61,17 +74,4 @@ Streamlit Web App
 streamlit run career_app.py 
 
 
-## Dataset: 
-
-student.csv contains features like:
-
-Student_Age, Sex, High_School_Type, Scholarship
-
-Additional_Work, Sports_activity, Transportation
-
-Weekly_Study_Hours, Attendance
-
-Reading, Notes, Listening_in_Class, Project_work
-
-Target variable: Grade (converted to HIGH/LOW)
 
