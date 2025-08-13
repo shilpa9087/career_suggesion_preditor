@@ -14,10 +14,15 @@ To provide personalized insights on students’ career readiness and guide them 
 
 Project1/
 │
+
 ├── career_model.pkl # Trained Random Forest model
+
 ├── label_encoders.pkl # Encoders for categorical variables
+
 ├── student_career.py # Python script for console prediction
+
 ├── career_app.py # Streamlit web app
+
 └── student.csv # Sample dataset 
 
 
@@ -44,17 +49,15 @@ Project1/
 
 ## 🚀 How to Run
 
-### Console Version
-
 ```bash
 python student_career.py
 
-### Streamlit Web App
+Streamlit Web App
 
 ```bash
 streamlit run career_app.py 
 
-## Dataset
+Dataset
 student.csv contains features like:
 
 Student_Age, Sex, High_School_Type, Scholarship
